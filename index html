@@ -3,22 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <luink rel="stylesheet" href="style.css"
     <title>Gif card 
     
     </title>
+<header>
+      <h1> coferi ia </h1>
+      <nav>
+        <a> href=#inicio </a> 
+      </nav>
+</header>
 </head>
 <body>
 <main>
     <H2> Descubra a verdade passando o mause</H2>
     <section>
-        <article>
-            <div>
-                <div>
-                    <img src=<img src="https://static.nationalgeographicbrasil.com/files/styles/image_3200/public/mm1012723121410486.jpg?w=1900&h=2849&quot; alt="Pinguim" class="cartao-imagem">
+        <article class="cartao"></article>
+            <div class="cartao-interio">
+                <div class=" cartao mentira"></div>
+                    <img   class="cartao imagem "   src=<img src="https://static.nationalgeographicbrasil.com/files/styles/image_3200/public/mm1012723121410486.jpg?w=1900&h=2849&quot; alt="Pinguim" class="cartao-imagem">
                     <p> Pinguins conseque voar como passaros!</p>
                 </div>
-                <div>
-                    <img src=<img src="https://static.nationalgeographicbrasil.com/files/styles/image_3200/public/mm1012723121410486.jpg?w=1900&h=2849&quot; alt="Pinguim" class="cartao-imagem">
+                <div   clase="cartao-verso">
+                    <img class="cartao imagem " src=<img src="https://static.nationalgeographicbrasil.com/files/styles/image_3200/public/mm1012723121410486.jpg?w=1900&h=2849&quot; alt="Pinguim" class="cartao-imagem">
                     <p>Pinguins não voam, mas são excelentes nadadores.</p>
                 </div>
             </div>
