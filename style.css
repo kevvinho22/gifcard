@@ -21,3 +21,17 @@
  .cartao-imagem{
      wildth: 100%
  }
+
+
+
+
+
+{cartao-interno
+poition: relative;
+}
+.cartao-mentira,cartao-verso{
+   position:absolute;
+   border-radius: 12px;
+   box-shadow: 0 6px 12px rgba(0,0,0,0,0.15);
+
+}
