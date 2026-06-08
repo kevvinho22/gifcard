@@ -14,7 +14,7 @@ h1{
   text-decoration: none;
 }
 
-    body {
+body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
@@ -25,16 +25,17 @@ main {
 .cartao{
     width: 260 px;
     height: 200 px;
-    transition: trasform 0.8s;
-    transform: preserve-3d;
+
 }
 .cartao-imagem{
     width: 100%;
 }
 cartao-interno{
-  position: relative;
+  position: relative;    
+  transition: trasform 0.8s;
+  transform: preserve-3d;
 }
-.cartao-frente,
+.cartao-mentira,
 .cartao-verso {
   position: absolute;
   border-radius: 12px;
